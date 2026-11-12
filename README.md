@@ -36,6 +36,10 @@ The program follows these main steps:
 6. **Mouse Control**
    As the pupil moves away from the calibrated position, the displacement is scaled and translated into screen coordinates. A short moving average is applied to the mouse positions to reduce jitter before moving the cursor.
 
+## Demo Video
+
+https://github.com/user-attachments/assets/f4a77a93-8a6b-4847-9118-459fc0890f8c
+
 ## Machine Learning Model
 
 The project uses a **pretrained dlib facial landmark model**:

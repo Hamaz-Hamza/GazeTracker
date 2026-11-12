@@ -1,0 +1,23 @@
+# virtual environment
+.venv/
+
+# vscode
+.vscode/
+
+# Environment/secrets
+.env
+.env.*
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.whl
+build/
+dist/
+
+# project
+*.zip
+*.gz
+*.mkv

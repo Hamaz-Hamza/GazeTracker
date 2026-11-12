@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaze-tracker"
+version = "1.0.0"
+description = "A program that detects where the user is looking and loosely moves the pointer to the estimated gaze point"
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "opencv-python",
+    "dlib",
+    "numpy",
+    "pyautogui",
+]
